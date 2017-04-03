@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39c903" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Jakiego klubu są to koszulki"
+            android:textSize="30dp"
+            android:id="@+id/tytul" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/one"
+            android:layout_below="@+id/tytul"
+            android:src="@drawable/one"
+            android:layout_centerHorizontal="true" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/one"
+            android:id="@+id/oneq"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arsenal"
+                android:id="@+id/oneqt" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="West Ham"
+                android:id="@+id/oneqf" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/two"
+            android:layout_below="@+id/oneq"
+            android:src="@drawable/two"
+            android:layout_centerHorizontal="true" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/two"
+            android:id="@+id/twoq"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Real Madryt"
+                android:id="@+id/twoqt" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atletico Madryt"
+                android:id="@+id/twoqf" />
+        </RadioGroup>
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/three"
+            android:layout_below="@+id/twoq"
+            android:src="@drawable/three"
+            android:layout_centerHorizontal="true" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/three"
+            android:id="@+id/threeq"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manchester United"
+                android:id="@+id/threeqt" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chelsea Londyn"
+                android:id="@+id/threeqf" />
+        </RadioGroup>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/four"
+            android:layout_below="@+id/threeq"
+            android:src="@drawable/four"
+            android:layout_centerHorizontal="true" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/four"
+            android:id="@+id/fourq"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Juventus Turyn"
+                android:id="@+id/fourqt" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AC Milan"
+                android:id="@+id/fourqf" />
+        </RadioGroup>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/five"
+            android:layout_below="@+id/fourq"
+            android:src="@drawable/five"
+            android:layout_centerHorizontal="true" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/five"
+            android:id="@+id/fiveq"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cioty"
+                android:id="@+id/fiveqt" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debile"
+                android:id="@+id/fiveqf" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+</ScrollView>
