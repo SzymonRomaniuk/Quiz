@@ -99,7 +99,7 @@ import android.widget.Toast;
                 @Override
                 public void onCheckedChanged(RadioGroup group, int checkedId)
                 {
-                    if (checkedId == R.id.fiveqt)
+                    if (checkedId == R.id.fiveqt || checkedId == R.id.fiveqf)
                         score++;
                     tekst = "Ilość punktów: " + score;
                     Toast.makeText(getApplicationContext(),tekst, Toast.LENGTH_LONG).show();
